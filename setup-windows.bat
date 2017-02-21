@@ -1,7 +1,7 @@
 @ECHO OFF
 SETLOCAL ENABLEDELAYEDEXPANSION
 
-SET RESETVARS=https://raw.githubusercontent.com/PredixDev/local-setup/master/resetvars.vbs
+SET RESETVARS=https://raw.githubusercontent.com/richcobrien/local-setup/master/resetvars.vbs
 
 GOTO START
 
