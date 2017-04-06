@@ -160,6 +160,8 @@ IF !install[cf]! EQU 1 (
   ) ELSE (
   SET filename=predix_win32.exe
   )
+
+  
   ( cf plugins | findstr "Predix" >$null 2>&1 ) || cf install-plugin -f https://github.com/richcobrien/cf-predix/releases/download/1.0.0/!filename!
   ENDLOCAL
 
